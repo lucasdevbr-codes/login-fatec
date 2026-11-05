@@ -4,43 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fatec-login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Righteous&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/324b71f187.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <h3>Entrar Com</h3>
+        <h3 class="texto-entrar-com">Entrar Com</h3>
         <div class="redes-sociais">
             
             <a href="#">
-                <img src="./img/facebook.svg">
+                <i class="fab fa-facebook-f"></i>
             </a>
 
             <a href="#">
-                <img src="./img/google.svg">
+                <i class="fab fa-google"></i>
             </a>
 
             <a href="#">
-                <img src="./img/linkedin.svg">
+                <i class="fab fa-linkedin-in"></i>
             </a>
-            
+
         </div>
 
     <p class="usar-conta">ou ultilize a sua conta</p>
    
-    <form class="caixa-de-texto">
+    <form class="formulario">
         <input type="text" placeholder="email">
         <input type="text" placeholder="senha">
     </form>
         
-        <p class="esquexeu-a-senha">
+        <p class="esqueceu-a-senha">
             esqueceu a senha
         </p>
-        <div class="container-registrar">
+        <a href="#" class="login">logar</a>
         
-            <p>não tem conta ?</p>
-            <a href="#">logar</a>
-
+        <div class="container-registrar">
+            <p class="texto-nao-conta">
+                Não tem conta?
+            </p>
+            <a href="#">
+                registre-se
+            </a>
         </div>
-    </main>
+
+        
+        </main>
     
 </body>
 </html>
